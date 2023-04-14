@@ -1,0 +1,7 @@
+---
+namespace: dev
+images:
+  - name: temp1ar/nginx
+    newTag: v0.1.0
+resources:
+  - ../my-app-base
