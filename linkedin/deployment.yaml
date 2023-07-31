@@ -4,6 +4,7 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx
+    app.kubernetes.io/instance: simple-nginx
 spec:
   replicas: 1
   selector:
