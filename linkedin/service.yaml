@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app:nginx
+    app: nginx
     app.kubernetes.io/instance: simple-nginx
   name: nginx-service
   namespace: default
